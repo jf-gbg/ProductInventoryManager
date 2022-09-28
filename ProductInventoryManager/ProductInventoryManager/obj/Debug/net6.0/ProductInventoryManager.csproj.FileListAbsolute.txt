@@ -1,0 +1,15 @@
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\bin\Debug\net6.0\ProductInventoryManager.exe
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\bin\Debug\net6.0\ProductInventoryManager.deps.json
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\bin\Debug\net6.0\ProductInventoryManager.runtimeconfig.json
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\bin\Debug\net6.0\ProductInventoryManager.dll
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\bin\Debug\net6.0\ProductInventoryManager.pdb
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.csproj.AssemblyReference.cache
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.AssemblyInfoInputs.cache
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.AssemblyInfo.cs
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.csproj.CoreCompileInputs.cache
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.dll
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\refint\ProductInventoryManager.dll
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.pdb
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManager.genruntimeconfig.cache
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ref\ProductInventoryManager.dll
