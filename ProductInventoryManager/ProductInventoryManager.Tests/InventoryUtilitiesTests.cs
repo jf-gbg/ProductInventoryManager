@@ -43,6 +43,5 @@ namespace ProductInventoryManager.Tests
             Assert.Equal(testInventoryValue, utilityReturnValue);
         }
 
-
     }
 }
