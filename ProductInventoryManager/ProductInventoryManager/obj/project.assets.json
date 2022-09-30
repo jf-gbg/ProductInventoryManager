@@ -8,28 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\malmm\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\joshua.franklin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malmm\\OneDrive\\Documents\\Programming\\C#\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager.csproj",
+      "projectUniqueName": "C:\\Users\\joshua.franklin\\OneDrive - Veprox\\Dokument\\Programming\\C#\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager.csproj",
       "projectName": "ProductInventoryManager",
-      "projectPath": "C:\\Users\\malmm\\OneDrive\\Documents\\Programming\\C#\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager.csproj",
-      "packagesPath": "C:\\Users\\malmm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malmm\\OneDrive\\Documents\\Programming\\C#\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager\\obj\\",
+      "projectPath": "C:\\Users\\joshua.franklin\\OneDrive - Veprox\\Dokument\\Programming\\C#\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager.csproj",
+      "packagesPath": "C:\\Users\\joshua.franklin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joshua.franklin\\OneDrive - Veprox\\Dokument\\Programming\\C#\\ProductInventoryManager\\ProductInventoryManager\\ProductInventoryManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\malmm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joshua.franklin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -70,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

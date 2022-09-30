@@ -8,10 +8,13 @@ namespace ProductInventoryManager.Inventory
 {
     public class Product
     {
-        public int Id { get; set; }
+        public int Id { get; set; } = 0;
         public string Name { get; set; } = string.Empty;
-        public decimal Price { get; set; }
-        public int Quantity { get; set; }
+        public decimal Price { get; set; } = 0;
+        public int Quantity { get; set; } = 0;
+
+        public Product()
+        { }
 
         public Product(int id, string name, decimal price, int quantity)
         {
@@ -30,5 +33,7 @@ namespace ProductInventoryManager.Inventory
                 $"Quantity in stock: {Quantity}\n" +
                 $"---------------------");
         }
+
+
     }
 }
