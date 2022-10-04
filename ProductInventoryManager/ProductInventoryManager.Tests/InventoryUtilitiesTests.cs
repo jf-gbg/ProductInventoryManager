@@ -1,32 +1,33 @@
-using ProductInventoryManager.Inventory;
+using ProductInventoryManager.InventoryDomain;
+
 
 namespace ProductInventoryManager.Tests
 {
     public class InventoryUtilitiesTests
     {
-        Product strat = new Product(1, "Strat", 1000m, 1);
-        Product tele = new Product(2, "Tele", 1000m, 13);
-        Product jBass = new Product(3, "JBass", 1200m, 8);
-        Product pBass = new Product(4, "pBass", 1200m, 11);
-        private List<Product> products = new List<Product>();
+        Product strat = new Product("Strat", 1000m, 1);
+        Product tele = new Product("Tele", 1000m, 13);
+        Product jBass = new Product("JBass", 1200m, 8);
+        Product pBass = new Product("pBass", 1200m, 11);
+        Warehouse inventory = new Warehouse();
 
         private void PopulateProducts()
         {
-            products.Add(strat);
-            products.Add(tele);
-            products.Add(jBass);
-            products.Add(pBass);
+            inventory.Products.Add(strat);
+            inventory.Products.Add(tele);
+            inventory.Products.Add(jBass);
+            inventory.Products.Add(pBass);
         }
 
         [Fact]
         public void GetInventoryTotal_Returns_AccurateTotal()
         {
             //Arrange
-            products.Add(strat);
+            inventory.Products.Add(strat);
             int testInventoryTotal = strat.Quantity;
 
             //Act
-            int utilityReturnTotal = InventoryUtilities.GetInventoryTotal(products);
+            int utilityReturnTotal = InventoryUtilities.GetInventoryTotal(inventory.Products);
 
             //Assert
             Assert.Equal(testInventoryTotal, utilityReturnTotal);
@@ -35,10 +36,10 @@ namespace ProductInventoryManager.Tests
         [Fact]
         public void GetCurrentInventoryValue_Returns_AccurateValue()
         {
-            products.Add(strat);
+            inventory.Products.Add(strat);
             decimal testInventoryValue = strat.Quantity * strat.Price;
 
-            decimal utilityReturnValue = InventoryUtilities.GetCurrentInventoryValue(products);
+            decimal utilityReturnValue = InventoryUtilities.GetCurrentInventoryValue(inventory.Products);
 
             Assert.Equal(testInventoryValue, utilityReturnValue);
         }

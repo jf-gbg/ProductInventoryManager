@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductInventoryManager.UI
+namespace ProductInventoryManager.Ui
 {
     internal class UiUtilities
     {

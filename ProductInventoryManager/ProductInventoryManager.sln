@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductInventoryManager", "ProductInventoryManager\ProductInventoryManager.csproj", "{373C3A33-F190-49D4-A0F0-583E756A417D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductInventoryManager.Tests", "ProductInventoryManager.Tests\ProductInventoryManager.Tests.csproj", "{3B79F370-F8B3-485D-B3DD-E919B39CEC3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductInventoryManager.Tests", "ProductInventoryManager.Tests\ProductInventoryManager.Tests.csproj", "{3B79F370-F8B3-485D-B3DD-E919B39CEC3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

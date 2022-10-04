@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
+using ProductInventoryManager.InventoryDomain;
 
-namespace ProductInventoryManager.UI
+namespace ProductInventoryManager.Ui
 {
     public class UiText
     {
@@ -46,6 +49,21 @@ namespace ProductInventoryManager.UI
             };
 
             return editProductText;
+        }
+
+        public static string[] ProductInfo(Product product)
+        {
+            string[] productInfo =
+            {
+                "---Product Info---",
+                $"ID: {product.Id}",
+                $"Name: {product.Name}",
+                $"Price(kr): {Math.Round(product.Price, MidpointRounding.AwayFromZero)}",
+                $"Quantity in stock: {product.Quantity}",
+                "---------------------"
+            };
+
+            return productInfo;
         }
     }
 }

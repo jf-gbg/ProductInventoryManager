@@ -1,0 +1,5 @@
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManagerConsole.csproj.AssemblyReference.cache
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManagerConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManagerConsole.AssemblyInfoInputs.cache
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManagerConsole.AssemblyInfo.cs
+C:\Users\joshua.franklin\OneDrive - Veprox\Dokument\Programming\C#\ProductInventoryManager\ProductInventoryManager\ProductInventoryManager\obj\Debug\net6.0\ProductInventoryManagerConsole.csproj.CoreCompileInputs.cache

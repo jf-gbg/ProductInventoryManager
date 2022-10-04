@@ -1,12 +1,22 @@
-﻿using ProductInventoryManager.UI;
-using ProductInventoryManager.Inventory;
-using System.Reflection;
+﻿using System.Reflection;
+using ProductInventoryManager.InventoryDomain;
+using ProductInventoryManager.Ui;
+using ProductInventoryManager.Data;
 
-Product product = new Product(1, "Strat", 1000m, 10);
-List<Product> products = new List<Product>();
+using (InventoryContext context = new InventoryContext())
+{
+    context.Database.EnsureCreated();
+}
 
-Product testProduct = ProductFactory.CreateProduct();
+Warehouse mainWarehouse = new Warehouse();
 
-testProduct = ProductFactory.UpdateProduct(testProduct);
+ProductFactory.CreateProduct(mainWarehouse, UiUtilities.WriteAndReadConsole(UiText.ProductCreation()));
+ProductFactory.CreateProduct(mainWarehouse, UiUtilities.WriteAndReadConsole(UiText.ProductCreation()));
+
+foreach (Product product in mainWarehouse.Products)
+{
+    UiUtilities.WriteToConsole(UiText.ProductInfo(product));
+}
+
 
 
